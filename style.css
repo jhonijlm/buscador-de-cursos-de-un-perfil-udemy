@@ -1,0 +1,29 @@
+body {
+  padding-top: 5rem;
+}
+
+.loading {
+  background: rgba(255, 255, 255, 0.8);
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  transition: all 0.3s ease;
+  visibility: visible;
+  width: 100%;
+  z-index: 99999;
+}
+
+.loading_show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.loading_hide {
+  opacity: 0;
+  visibility: hidden;
+}
